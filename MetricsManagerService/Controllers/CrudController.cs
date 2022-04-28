@@ -5,6 +5,8 @@ using System.Linq;
 
 namespace MetricsManagerService.Controllers
 {
+    
+
     //[Route("api/[controller]")]
     [Route("api/crud")]
     [ApiController]
@@ -56,7 +58,6 @@ namespace MetricsManagerService.Controllers
             stringsToDelete).ToList();
             return Ok();
         }
-
 
     }
 }
