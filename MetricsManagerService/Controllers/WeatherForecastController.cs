@@ -7,7 +7,8 @@ using System.Threading.Tasks;
 
 namespace MetricsManagerService.Controllers
 {
-    //[NonController]
+    
+
     [ApiController]
     [Route("[controller]")]
     public class WeatherForecastController : ControllerBase
@@ -36,5 +37,7 @@ namespace MetricsManagerService.Controllers
             })
             .ToArray();
         }
+
+        
     }
 }
